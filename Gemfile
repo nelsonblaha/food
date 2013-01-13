@@ -12,6 +12,9 @@ gem 'rails', '3.2.9'
 		gem 'cucumber-rails', require: false
 	end
 
+	# https://github.com/nelsonblaha/boilerplate omniauth-facebook
+		gem 'omniauth-facebook'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
