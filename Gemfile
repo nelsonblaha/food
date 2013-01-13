@@ -3,11 +3,14 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.9'
 
 # https://github.com/nelsonblaha/boilerplate TDD
-gem 'therubyracer'
-gem 'factory_girl_rails'
-gem 'mocha'
-gem 'shoulda'
-gem 'cucumber-rails'
+	gem 'therubyracer'
+	gem 'factory_girl_rails'
+	gem 'mocha'
+	gem 'shoulda'
+
+	group :test do
+		gem 'cucumber-rails'
+	end
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
