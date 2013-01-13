@@ -9,7 +9,7 @@ gem 'rails', '3.2.9'
 	gem 'shoulda'
 
 	group :test do
-		gem 'cucumber-rails'
+		gem 'cucumber-rails', require: false
 	end
 
 # Bundle edge Rails instead:
