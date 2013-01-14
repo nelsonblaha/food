@@ -58,5 +58,8 @@ module Boilerplate
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    FACEBOOK_KEY = nil
+    FACEBOOK_SECRET = nil
   end
 end
